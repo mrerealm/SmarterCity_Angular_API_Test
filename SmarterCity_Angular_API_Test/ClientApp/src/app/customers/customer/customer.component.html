@@ -1,0 +1,24 @@
+<div style="padding: 30px;">
+  <div class="jumbotron py-2">
+    <h1 class="display-4 text-center">SmarterCity Code Test API/Angular12</h1>
+  </div>
+  <div class="row">
+    <app-customer-details></app-customer-details>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Mobile Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of service.customers">
+          <td (click)="populateForm(row)">{{row.firstName}}</td>
+          <td (click)="populateForm(row)">{{row.lastName}}</td>
+          <td (click)="populateForm(row)">{{row.mobilenumber}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

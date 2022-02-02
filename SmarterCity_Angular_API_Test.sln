@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmarterCity_Angular_API_Test", "SmarterCity_Angular_API_Test\SmarterCity_Angular_API_Test.csproj", "{6CE698CB-65DC-4C1D-8DFD-6069A6FC3B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmarterCity_Angular_API_Test.Unit.Test", "SmarterCity_Angular_API_Test.Unit.Test\SmarterCity_Angular_API_Test.Unit.Test.csproj", "{8BDAE508-C3B9-4240-9FA4-D4DF5E009872}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE698CB-65DC-4C1D-8DFD-6069A6FC3B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE698CB-65DC-4C1D-8DFD-6069A6FC3B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE698CB-65DC-4C1D-8DFD-6069A6FC3B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE698CB-65DC-4C1D-8DFD-6069A6FC3B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDAE508-C3B9-4240-9FA4-D4DF5E009872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDAE508-C3B9-4240-9FA4-D4DF5E009872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDAE508-C3B9-4240-9FA4-D4DF5E009872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDAE508-C3B9-4240-9FA4-D4DF5E009872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA73D454-C704-4296-AFCB-F25C0B334C5A}
+	EndGlobalSection
+EndGlobal
